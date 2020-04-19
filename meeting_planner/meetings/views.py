@@ -18,7 +18,8 @@ def rooms_list(request):
     return render(request, "meetings/rooms_list.html", 
     {"rooms": Room.objects.all()})
 
-MeetingForm = modelform_factory(Meeting, exclude=[]) #help with html form
+#we have our own form with validation, so dont needed
+#MeetingForm = modelform_factory(Meeting, exclude=[]) #help with html form
 
 
 def new(request):
