@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'website', #added 
-    'meetings',
+    'meetings', #modules (db)
 ]
 
 MIDDLEWARE = [
