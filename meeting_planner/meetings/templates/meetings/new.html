@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %} Meeting: {{meeting.title}} {% endblock %}
+
+{% block content %} 
+       <h1> Plan your new meeting </h1>
+       <form>
+           <table>
+               {{ form }}
+           </table>
+       </form>
+{% endblock %}
